@@ -9,7 +9,7 @@ layout: default
     <div class="col-lg-8 col-md-10 mx-auto">
         {% for post in site.posts %}
         <div class="post-preview">
-            <a href="{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">
                 <h2 class="post-title">
                     {{ post.title }}
                 </h2>
@@ -18,7 +18,12 @@ layout: default
                 </h3>
             </a>
             <p class="post-meta">
-                Postado por: **{{ post.author }}** | {{ post.date }}
+                Postado por: 
+                <b>
+                    <a href="https://abelaguiar.github.io" target="_blank">
+                        {{ post.author }}
+                    </a>
+                </b> | {{ post.date }}
             </p>
         </div>
         <hr>

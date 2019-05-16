@@ -3,10 +3,11 @@
 layout: post
 title:  "Git flow com maestria"
 date:   2019-05-11 08:30:23 -0300
-description: "É a ferramenta versionamento e ótima para todos os projetos"
+description: "Porque usar git flow, aplicando formas práticas de usar"
 categories: ferramentas
 tags: [git, git-flow]
 author: "Abel Aguiar"
+imageBanner: git-flow-com-maestria.png
 
 ---
 
@@ -27,7 +28,9 @@ Caso estaja usando linux e ja tenha [instalado o git][instalando-git], primeiro 
 
 ```sh
   git init
+
   git add --all
+
   git commit -m “init project”
 ```
 
@@ -35,6 +38,7 @@ Assim o git é iniciado no seu projeto e você cria sua primeira versão atravé
 
 ```sh
   git remote add origin https://github.com/{usuario}/{nomeDoProjeto}.git
+
   git push -u origin master
 ```
 Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser servidor na sua empresa ou um terceiro como é nosso caso. Para baixar o projeto em outras máquinas, use o comando abaixo:
@@ -42,6 +46,8 @@ Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser
 ```sh
   git clone https://github.com/{usuario}/{nomeDoProjeto}.git
 ```
+
+---
 
 ### Git Flow no dia a dia
 
@@ -59,6 +65,8 @@ Vamos iniciar a utilização do git flow, primeiro instale ele no seu linux e na
 
 Todas as opções que aparecem ao execultar o comando devem ser aceitas.
 
+---
+
 #### Hotfix
 
 Hotfix são mudanças pequenas como correção de bugs, os commits gerados dentro do hotfix vão direto para a branch MASTER quando finalizado, passando da versão de 1.0.0 para 1.0.1 por exemplo.
@@ -71,6 +79,7 @@ Após execultar o comando, uma branch é criada do tipo hotfix e com o nome que 
 
 ```sh
   git add --all
+
   git commit -m "update project"
 ```
 
@@ -87,8 +96,10 @@ Finalizando o hotfix temos uma release sendo feita de forma automática, que ser
 [versionamento]: https://semver.org/lang/pt-BR/
 
 ```sh
- git push origin master 1.0.0
+  git push origin master 1.0.0
 ```
+
+---
 
 #### Feature
 
@@ -103,7 +114,8 @@ Então a partir da branch DEVELOP é criado uma nova branch para trabalharmos a 
 Faça todas as inserções de código e crie todos os commits necessários para a funcionalidade que precisa:
 
 ```sh
-  git add --all<br><br>
+  git add --all
+
   git commit -m "update project"
 ```
 
@@ -113,7 +125,9 @@ Finalizo a feature com o comando abaixo:
   git flow feature finish <nome>
 ```
 
-Próximo passo ao finalizar a feature é criar uma release, pra que serve, onde vive e o que come.</p> 
+Próximo passo ao finalizar a feature é criar uma release, pra que serve, onde vive e o que come.
+
+---
 
 #### Release
 
@@ -130,6 +144,8 @@ No hotfix, ao finaliza-lo as informações são mandadas para a MASTER e na feat
 
   git flow release finish <1.0.0 version>
 ```
+
+---
 
 #### Finalizando
 
