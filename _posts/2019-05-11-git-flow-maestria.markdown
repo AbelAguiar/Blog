@@ -131,7 +131,7 @@ Próximo passo ao finalizar a feature é criar uma release, pra que serve, onde 
 
 #### Release
 
-É a forma de alinhar todas as brach, nivelando todos os commits nas brach master e develop, como mostrei anteriormente ao criar um hotfix ou feature, uma brach é criada com o nome informado, ao finalizar a branch criada é destruida, só que após isso o processo é diferente para hotfix e feature.
+É a forma de alinhar todas as branch, nivelando todos os commits nas branch master e develop, como mostrei anteriormente ao criar um hotfix ou feature, uma branch é criada com o nome informado, ao finalizar a branch criada é destruida, só que após isso o processo é diferente para hotfix e feature.
 
 No hotfix, ao finaliza-lo as informações são mandadas para a MASTER e na feature é mandada para a DEVELOP, assim no primeiro caso não necessitamos de uma release, porque os dados já vão para a branch principal, na feature temos que igualar MASTER e DEVELOP, e ao criar uma nova versão.
 
