@@ -1,8 +1,13 @@
 ---
+
 layout: post
 title:  "Git flow com maestria"
 date:   2019-05-11 08:30:23 -0300
+description: "É a ferramenta versionamento e ótima para todos os projetos"
 categories: ferramentas
+tags: [git, git-flow]
+author: "Abel Aguiar"
+
 ---
 
 ### Git como ferramenta essencial
