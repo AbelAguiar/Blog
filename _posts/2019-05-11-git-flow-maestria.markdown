@@ -37,14 +37,14 @@ Caso estaja usando linux e ja tenha [instalado o git][instalando-git], primeiro 
 Assim o git é iniciado no seu projeto e você cria sua primeira versão através do commit “init project”, agora vamos subir o projeto para um servidor onde virará um repositório:
 
 ```sh
-  git remote add origin https://github.com/{usuario}/{nomeDoProjeto}.git
+  git remote add origin git@github.com:{usuario}/{nomeDoProjeto}.git
 
   git push -u origin master
 ```
 Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser servidor na sua empresa ou um terceiro como é nosso caso. Para baixar o projeto em outras máquinas, use o comando abaixo:
 
 ```sh
-  git clone https://github.com/{usuario}/{nomeDoProjeto}.git
+  git clone git@github.com:{usuario}/{nomeDoProjeto}.git
 ```
 
 ---
