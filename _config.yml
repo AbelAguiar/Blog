@@ -18,8 +18,8 @@ email: abel.prog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog criado para disseminar conhecimento sobre tecnologia e programação, aqui vários
   assuntos vão ser abordados, PHP e Ruby ou Docker e Vagrante.
-baseurl: "https://abelaguiar.github.io/test" # the subpath of your site, e.g. /blog
-url: "https://abelaguiar.github.io/test" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: abelaguiarce
 github_username: abelaguiar
 
