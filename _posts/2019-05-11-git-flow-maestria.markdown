@@ -7,6 +7,7 @@ description: "Porque usar git flow, aplicando formas práticas de usar"
 categories: ferramentas
 tags: [git, git-flow]
 author: "Abel Aguiar"
+authorUrl: http://abelaguiar.github.io
 imageBanner: git-flow-com-maestria.png
 
 ---

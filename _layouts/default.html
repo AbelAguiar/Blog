@@ -63,6 +63,10 @@
                         <span class="subheading">
                             {% if page.description %}
                                 {{ page.description }}
+                                <div style="margin-top:12px">
+                                    {{ page.author }} | 
+                                    {{ page.date | date: "%m / %d / %Y" }}
+                                </div>
                             {% else %}
                                 Vamos discutir isso e muito mais
                             {% endif %}

@@ -20,10 +20,10 @@ layout: default
             <p class="post-meta">
                 Postado por: 
                 <b>
-                    <a href="https://abelaguiar.github.io" target="_blank">
+                    <a href="{{ post.authorUrl }}" target="_blank">
                         {{ post.author }}
                     </a>
-                </b> | {{ post.date }}
+                </b> | {{ post.date | date: "%m / %d / %Y" }}
             </p>
         </div>
         <hr>
