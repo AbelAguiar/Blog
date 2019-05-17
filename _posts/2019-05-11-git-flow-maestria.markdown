@@ -14,16 +14,22 @@ imageBanner: git-flow-com-maestria.png
 
 ### Git como ferramenta essencial
 
-Sendo bem simples, é uma ferramenta de versionamento de código que melhora a forma de trabalha do projeto e até mesmo na interação com seus colegas de trabalho, assim temos um repositório que centraliza todo o seu projeto e nele vamos ter inserções de linhas de código através do git, esse repositório é na verdade um servidor onde poderá centralizar seu trabalho, pode ser criado dentro de sua empresa, como explica a [documentação][git-configuracao-servidor], pode usar também através de serviços na internet como  [bitbucket][bitbucket], [github][github] e [gitlab][gitlab].
+Sendo bem simples, é uma ferramenta de versionamento de código que melhora a forma de trabalhar com projetos e aplicações, ajudando na interação entre os desenvolvedores, assim temos um repositório ou local que centraliza toda a aplicação e nele vamos ter inserções de linhas de código através do git, esse repositório é na verdade um servidor onde poderá centralizar seu trabalho, pode ser criado dentro de sua empresa, como explica a [documentação][git-configuracao-servidor], pode usar também através de serviços na internet como [bitbucket][bitbucket], [github][github] e [gitlab][gitlab].
 
 [github]: https://github.com
 [bitbucket]: https://bitbucket.org
 [gitlab]: https://gitlab.com
 [git-configuracao-servidor]: https://git-scm.com/book/pt-br/v1/Git-no-Servidor-Configurando-o-Servidor
 
-Git é uma ferramenta criada e desenvolvida dentro do linux, sendo assim ela tem diversos tipos de comandos, outros sistemas tem suporte a ele? Sim, tem suporte, só que através de ferramentas, fica a dica, usar linux é muito divertido, nada contra quem usa windows, fique avontade para usar o que preferir, mas o que vamos abordar nesse posts é comandos básicos do git e vamos até o git flow, que seria um passo mais avançado para quem quer se aprofundar na ferramenta.
+Git é uma ferramenta criada e desenvolvida dentro do linux, sendo assim tem diversos tipos de comandos, em outros sistemas existe suporte só que limitado, onde é feito uma virtualização de uma base linux e nela o git será instalado e executado, linux é o sistema mais fácil para começa, mas fica a seu gosto.
 
-Caso estaja usando linux e ja tenha [instalado o git][instalando-git], primeiro vá na pasta do seu projeto pelo terminal e daí vamos aos comandos básicos:
+O que vamos abordar nesse post são de comandos básicos ao avançado, daí vamos do git ao git flow. As ferramentas que vamos trabalhar nesse projeto serão:
+
+* Linux (Fedora ou Ubunto).
+* Git
+* Git Flow
+
+No seu linux e faça a [instalação do git][instalando-git], vá na pasta do projeto pelo terminal e daí vamos aos comandos básicos:
 
 [instalando-git]: https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git
 
@@ -42,7 +48,7 @@ Assim o git é iniciado no seu projeto e você cria sua primeira versão atravé
 
   git push -u origin master
 ```
-Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser servidor na sua empresa ou um terceiro como é nosso caso. Para baixar o projeto em outras máquinas, use o comando abaixo:
+Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser um servidor na sua empresa ou um terceiro como é nosso caso. Para baixar o projeto em outras máquinas, use o comando abaixo:
 
 ```sh
   git clone git@github.com:{usuario}/{nomeDoProjeto}.git
@@ -52,13 +58,17 @@ Usando o github como servidor, adicionamos a origem, que é uma url, podendo ser
 
 ### Git Flow no dia a dia
 
-Essa ferramenta seria como um PLUS para o git, atuando em como vamos tratar as tarefas e versões do código, tendo uma separação de pequenas tarefas a grande módulos, desde uma correção de bug e manutenção de partes inteiras de seu sistema.
+Essa ferramenta seria como um PLUS para o git, atuando em como vamos tratar as tarefas e versões do código, tendo uma separação de pequenas tarefas a grande módulos, desde uma correção de bug a manutenção de partes inteiras de seu sistema. Git flow criada por [Vincent Driessen][vincent], agradeçam esse cara.
 
-Como tratamos no começo do post sobre o básico de git e seus comandos, aqui vou explicar como usar e em que ocasioões usar, pelo menos dentro da minha esperiência.
+[vincent]: https://nvie.com/about
 
-Para entender como funciona os tipos de abordagens do git flow, como hotfix e feature, temos que entender primeiro o que é um branch. Quando criamos um projeto e iniciamos com o git, automaticamente é criado uma branch chamada master, podemos enteder ela como se fosse um caminho a pecorrer e dentro dele temos as pegadas que podemos chamar de commits, esse conjunto de pegadas dentro de um caminho chamos de branch, e cada uma tem um significado, master no caso é a principal.
+Como tratamos no começo do post sobre o básico de git e seus comandos, aqui vou explicar como usar e em que ocasições usar, pelo menos dentro da minha esperiência.
 
-Vamos iniciar a utilização do git flow, primeiro instale ele no seu linux e na seguência entre no seu terminal, vá até a pasta do projeto onde o git já tenha sido iniciado e execulte o comando abaixo:
+Para entender como funciona os tipos de abordagens do git flow, como **hotfix** e **feature**, temos que entender primeiro o que é um branch. Quando criamos um projeto e iniciamos com o git, automaticamente é criado uma branch chamada **master**, podemos enteder ela como se fosse um caminho a pecorrer e dentro dele temos as pegadas que podemos chamar de commits, esse conjunto de pegadas dentro de um caminho chamos de branch, e cada uma tem um significado, master no caso é a principal.
+
+Vamos iniciar a utilização, primeiro [instale o git flow][instalando-git-flow] no seu linux e na seguência entre no seu terminal, vá até a pasta do projeto onde o git já tenha sido iniciado e execulte o comando abaixo:
+
+[instalando-git-flow]: https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
 
 ```sh
   git flow init
@@ -70,13 +80,13 @@ Todas as opções que aparecem ao execultar o comando devem ser aceitas.
 
 #### Hotfix
 
-Hotfix são mudanças pequenas como correção de bugs, os commits gerados dentro do hotfix vão direto para a branch MASTER quando finalizado, passando da versão de 1.0.0 para 1.0.1 por exemplo.
+Hotfix são mudanças pequenas como correção de bugs, os commits gerados dentro do hotfix vão direto para a branch MASTER quando finalizado, passando da versão de 1.0.0 para 1.0.1 através das tags.
 
 ```sh
   git flow hotfix start <1.0.0 version>
 ```
 
-Após execultar o comando, uma branch é criada do tipo hotfix e com o nome que foi dado a ela, particulamente ao hotfix prefiro da o nome da versão na qual o bug vai ser corrigido. Na seguência faça suas correções, inicie um commit como no comando abaixo:
+Após execultar o comando, uma branch é criada do tipo hotfix com o nome informado, particulamente ao hotfix coloco o nome da versão na qual o bug vai ser corrigido. Na seguência faça as correções e no final crio um commit como o comando abaixo:
 
 ```sh
   git add --all
@@ -84,7 +94,7 @@ Após execultar o comando, uma branch é criada do tipo hotfix e com o nome que 
   git commit -m "update project"
 ```
 
-Após criar o commit vou finalizo meu hotfix:
+Commit criado, finalizo o hotfix:
 
 ```sh
   git flow hotfix finish <1.0.0 version>
@@ -126,7 +136,7 @@ Finalizo a feature com o comando abaixo:
   git flow feature finish <nome>
 ```
 
-Próximo passo ao finalizar a feature é criar uma release, pra que serve, onde vive e o que come.
+Próximo passo ao finalizar a feature é criar uma release.
 
 ---
 
@@ -134,7 +144,7 @@ Próximo passo ao finalizar a feature é criar uma release, pra que serve, onde 
 
 É a forma de alinhar todas as branch, nivelando todos os commits nas branch master e develop, como mostrei anteriormente ao criar um hotfix ou feature, uma branch é criada com o nome informado, ao finalizar a branch criada é destruida, só que após isso o processo é diferente para hotfix e feature.
 
-No hotfix, ao finaliza-lo as informações são mandadas para a MASTER e na feature é mandada para a DEVELOP, assim no primeiro caso não necessitamos de uma release, porque os dados já vão para a branch principal, na feature temos que igualar MASTER e DEVELOP, e ao criar uma nova versão.
+No hotfix, ao finaliza-lo o grupo de commits são mandadas para a MASTER e na feature é mandada para a DEVELOP, assim no primeiro caso não necessitamos de uma release, porque os dados já vão para a branch principal, na feature temos que igualar MASTER e DEVELOP, e criar uma nova versão.
 
 ```sh
   git flow release start <1.0.0 version>
@@ -150,8 +160,10 @@ No hotfix, ao finaliza-lo as informações são mandadas para a MASTER e na feat
 
 #### Finalizando
 
-Ao finalizar envio os dados para o servidor, nas branch MASTER, DEVELOP e a tag criada de versionamento, subindo os commits da feature e version.
+Ao finalizar todo o processo, vamos enviar os dados para o servidor, nas branch **master**, **develop** e com a **tag** criada de versionamento, subindo os commits para o servidor do repositório.
 
 ```sh
   git push origin master develop <1.0.0 version>
 ```
+
+Obrigado a todos que leram o post até aqui, deixem suas dúvidas, sugestões de correção e comentários, estarei a disposição.
