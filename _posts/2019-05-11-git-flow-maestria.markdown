@@ -3,7 +3,7 @@
 layout: post
 title:  "Git flow com maestria"
 date:   2019-05-11 08:30:23 -0300
-description: "Porque usar git flow, aplicando formas práticas de usar"
+description: "Porque usar git flow e aplicando formas práticas de usar"
 categories: ferramentas
 tags: [git, git-flow]
 author: "Abel Aguiar"
