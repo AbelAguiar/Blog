@@ -3,7 +3,7 @@
 layout: post
 title:  "Localhost com docker"
 date:   2019-05-17 17:00 -0300
-description: "Docker usado no seu ambiente de desenvolvmento"
+description: "Usando docker no seu ambiente de desenvolvmento"
 categories: ferramentas
 tags: [docker, docker-compose]
 author: "Abel Aguiar"
