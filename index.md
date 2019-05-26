@@ -23,7 +23,7 @@ layout: default
                     <a href="{{ post.authorUrl }}" target="_blank">
                         {{ post.author }}
                     </a>
-                </b> | {{ post.date | date: "%m / %d / %Y" }}
+                </b> | {{ post.date | date: "%d / %m / %Y" }}
             </p>
         </div>
         <hr>
