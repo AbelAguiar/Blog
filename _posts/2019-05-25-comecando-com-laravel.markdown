@@ -8,7 +8,7 @@ categories: frameworks
 tags: [laravel, php]
 author: "Abel Aguiar"
 authorUrl: http://abelaguiar.github.io
-imageBanner: comecando-com-laravel.jpg
+imageBanner: 03-comecando-com-laravel.jpg
 
 ---
 
@@ -51,7 +51,7 @@ Taylor Otwell também criou várias ferramentas para auxiliar os desenvolvedores
 
 ### Forge
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/forge.png" alt="Ferramenta Forge">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/forge.png" alt="Ferramenta Forge">
 
 [Forge][forge] foi criado para configuração automatizada de servidores, assim você pode criar instancias na amazon, digital ocean de forma mais simples e centralizada, independente de usa laravel ou não. Não é uma ferramenta gratuita, cobrando uma mensalidade para usa-la.
 
@@ -59,7 +59,7 @@ Taylor Otwell também criou várias ferramentas para auxiliar os desenvolvedores
 
 ### Spark
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/spark.png" alt="Ferramenta Spark">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/spark.png" alt="Ferramenta Spark">
 
 Ferramenta com vários módulos prontos de cobrança, gerenciamento de times, autenticação por rede social e mais, para importar no seu laravel, [spark][spark] também é pago.
 
@@ -67,7 +67,7 @@ Ferramenta com vários módulos prontos de cobrança, gerenciamento de times, au
 
 ### Horizon
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/horizon.png" alt="Ferramenta Horizon">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/horizon.png" alt="Ferramenta Horizon">
 
 [Horizon][horizon] pode ser importado para o laravel apartir da versão 5.5, serve para a gerencia de filas e jobs executados em background, tendo uma interface para monitoramento, sendo gratuito.
 
@@ -75,7 +75,7 @@ Ferramenta com vários módulos prontos de cobrança, gerenciamento de times, au
 
 ### Envoyer
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/envoyer.png" alt="Ferramenta Envoyer">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/envoyer.png" alt="Ferramenta Envoyer">
 
 Trabalhar com deploy automático no [Envoyer][envoyer] de suas aplicações é muito simples, assim como outros serviços ele é pago, valendo muito apena.
 
@@ -83,7 +83,7 @@ Trabalhar com deploy automático no [Envoyer][envoyer] de suas aplicações é m
 
 ### Nova
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/nova.png" alt="Ferramenta Laravel Nova">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/nova.png" alt="Ferramenta Laravel Nova">
 
 [Nova][nova] seria um construtor de admins, bem completo, com criação de **[CRUDs][crud]** e sistema de busca, tudo pronto, projeto tem bem mais coisas, acredito que vale apena da uma olhada.
 
@@ -92,7 +92,7 @@ Trabalhar com deploy automático no [Envoyer][envoyer] de suas aplicações é m
 
 ### Lumen
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/lumen.png" alt="Framework Lumen">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/lumen.png" alt="Framework Lumen">
 
 [Lumen][lumen] é um mini framework baseado em laravel, onde serve para pequenos projetos, e que você pode ir evoluindo ele até chegar ao laravel que conhecemos.
 
@@ -136,7 +136,7 @@ php artisan serve
 
 Ao fazer esses passos vá no browser e cole http://127.0.0.1:8000, se aparecer algo como na imagem abaixo foi porque ocorreu tudo bem.
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/comecando-com-laravel/tela-home-framework-laravel.png" alt="Tela home framework laravel">
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/03-comecando-com-laravel/tela-home-framework-laravel.png" alt="Tela home framework laravel">
 
 A partir daqui você vai moldando a aplicação como você quer, seguindo a documentação.
 

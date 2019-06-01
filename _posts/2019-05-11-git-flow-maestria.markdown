@@ -8,7 +8,7 @@ categories: ferramentas
 tags: [git, git-flow]
 author: "Abel Aguiar"
 authorUrl: http://abelaguiar.github.io
-imageBanner: git-flow-com-maestria.png
+imageBanner: 01-git-flow-com-maestria.png
 
 ---
 

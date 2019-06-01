@@ -8,7 +8,7 @@ categories: ferramentas
 tags: [docker, docker-compose]
 author: "Abel Aguiar"
 authorUrl: http://abelaguiar.github.io
-imageBanner: localhost-docker.png
+imageBanner: 02-localhost-docker.png
 
 ---
 
