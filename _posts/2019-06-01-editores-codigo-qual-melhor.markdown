@@ -3,7 +3,7 @@
 layout: post
 title:  "Editores de código, qual o melhor?"
 date:   2019-05-25 10:30:00 -0300
-description: "Novas editores vem para o mercado de programação, qual deles tem destaque hoje"
+description: "Novos editores surgem no mercado de programação, qual deles tem destaque nos dias de hoje"
 categories: code-editors
 tags: [editores]
 author: "Abel Aguiar"
