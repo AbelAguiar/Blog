@@ -2,7 +2,7 @@
 
 layout: post
 title:  "Editores de código, qual o melhor?"
-date:   2019-05-25 10:30:00 -0300
+date:   2019-06-01 12:00:00 -0300
 description: "Novos editores surgem no mercado de programação, qual deles tem destaque nos dias de hoje"
 categories: code-editors
 tags: [editores]
