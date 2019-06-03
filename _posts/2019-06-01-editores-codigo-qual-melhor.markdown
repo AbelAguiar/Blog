@@ -36,11 +36,11 @@ Foram surgir os primeiro editores que poderiam ser visualizados em uma tela nos 
 
 ## Alguns editores populares
 
-Antes temos abaixo uma pesquisa realizada dentro do [google trends][google-trends] para os editores que irei falar nesse post:
+Antes temos abaixo uma pesquisa realizada na data desse post dentro do [google trends][google-trends] para os editores que irei falar nesse post:
 
 [google-trends]: https://trends.google.com/trends
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1754_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"Sublime text 3","geo":"BR","time":"today 12-m"},{"keyword":"Atom Editor","geo":"BR","time":"today 12-m"},{"keyword":"Vim Editor","geo":"BR","time":"today 12-m"},{"keyword":"Vscode","geo":"BR","time":"today 12-m"}],"category":0,"property":""}, {"exploreQuery":"geo=BR&q=Sublime%20text%203,Atom%20Editor,Vim%20Editor,Vscode&date=today 12-m,today 12-m,today 12-m,today 12-m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/04-editor-codigo-qual-melhor/google-trends.png" alt="Pesquisa sobre editores de código no google trends">
 
 ### [Atom][atom]
 
@@ -48,13 +48,19 @@ Antes temos abaixo uma pesquisa realizada dentro do [google trends][google-trend
 
 <img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/04-editor-codigo-qual-melhor/atom-editor.png" alt="Atom Editor">
 
-Editor de código gratuito e com código aberto, desenvolvido com electron, que tem como finalidade a edição e criação de código de aplicações, sejam eles em qual linguagem for, tem integração com git e ferramentas de para estilizar o editor, é uma boa opção entre os demais. Disponível para todas as plataformas, windows, macOs e linux. Permite a instalação de pacotes, configuração de fonte, tipos e cores, assim como também integração com outras ferramentas de commandline.
+Editor de código gratuito e com código aberto, desenvolvido com electron, que tem como finalidade a edição e criação de aplicações, sejam eles em qual linguagem for, tem integração com git e ferramentas de para estilizar o editor, é uma boa opção entre os demais. 
+
+Disponível para todas as plataformas, windows, macOs e linux. Permite a instalação de pacotes, configuração de fonte, tipos e cores, assim como também integração com outras ferramentas de commandline.
 
 ### Vim
 
 <img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/04-editor-codigo-qual-melhor/vim.jpeg" alt="Vim Editor">
 
-Editor baseado no [vi][vi], sua interação é feita inteiramente pelo terminal, assim disponível para as plataformas unix e linux, também com pouquíssimas interação com o mouse, sendo o editor mais roots dessa lista, para se trabalhar com ele vamos ter uma lista de comandos que vão servir para buscar e substituir linhas de código, como também buscar pasta, tudo pelo teclado, sendo uma adaptação demorada, mas seguindo um bom ritmo e persistindo, passa a ser o mais eficiente de todos.
+Editor baseado no [vi][vi], sua interação é feita inteiramente pelo terminal, assim disponível para as plataformas unix e linux, também com pouquíssimas interação com o mouse, sendo o editor mais roots dessa lista. 
+
+Para trabalhar com ele é preciso conhecer uma lista de comandos, onde vão servir para manipular textos, fazer buscar por palavras específicas, como também buscar pastas, tudo pelo teclado, sendo uma adaptação demorada, mas seguindo um bom ritmo e persistindo, passa a ser o mais eficiente de todos. [Clique aqui para ver como ele funciona um pouco][conhecendo-vim].
+
+[conhecendo-vim]: https://canaltech.com.br/linux/conheca-e-aprenda-a-usar-o-editor-vim-no-linux
 
 [vi]: https://en.wikipedia.org/wiki/Vi
 
