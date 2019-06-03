@@ -18,13 +18,15 @@ Não quero refletir opinião, dizer qual o melhor editor de texto ou algo nesse 
 
 Maioria das pessoas que entram para área de tecnologia, principalmente na de software, já deparou-se com editores de texto ou IDEs para trabalhar com código, onde essa ferramenta é extremamente essencial para facilitar e organizar textos, tendo vários tipos de atalhos e recursos de busca, substituição de texto, indentação e execução o que foi produzindo.
 
-Falando primeiro de **IDE** ([Integrated Development Environment][IDE]), é na prática um editor de texto com várias ferramentas integradas que pode ser usado por qualquer linguagem, só que geralmente é usado em linguagens compiladas, porque ela facilita na construção desses softwares por fornecer ferramentas que compilam e interpretam o código, mostrando a execução na tela do editor.
+Falando primeiro de **IDE** ([Integrated Development Environment][IDE]), é na prática um editor de texto com várias ferramentas integradas que pode ser usado por qualquer linguagem.
+
+Geralmente é usado em linguagens compiladas, porque ela facilita na construção desses softwares por fornecer ferramentas que compilam e interpretam o código, mostrando a execução na tela do editor, fornecem relátorios de desempenho e fazendo debugger da aplicação e muito mais.
 
 [IDE]: https://en.wikipedia.org/wiki/Integrated_development_environment
 
-Muito além do editor é a tecnologia que vai ser trabalhada, como mobile, onde vai depender bastante do seu editor para ver o que está sendo produzido, que faça a ligação com o máquina virtual de um celular ou até mesmo um celular físico. 
+Algumas tecnologias vão precisar de algo além de um editor, como mobile, dependendo fundamentalmente de seu editor para executar e ver o resultado de seu código, tendo um sistema que faz a ligação com uma máquina virtual de um celular android por exemplo. 
 
-**Editor de texto**, é usado mais para linguagens interpretadas, tendo maior economia de recursos da máquina, além da velocidade de execução de suas tarefas, mas para linguagens compiladas terá que usar outras ferramentas externas ao editor para execução do código.
+**Editor de texto**, é usado mais para edição de código sem recursos de execução, onde haverá maior economia de recursos, com único objetivo de editar um arquivo de texto, algo além disso é instalado separadamente do editor e usado em outro momento.
 
 ## Um pouco da história dos editor de texto
 
