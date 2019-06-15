@@ -39,3 +39,11 @@ São aquelas que implementam as duas formas de leituras, compilado e interpretad
 ### Falando um pouco mais…
 
 As linguagens hoje se modernizaram bastante, criando e adotando práticas de execução e compilação de código melhores, tendo em vista essa evolução, várias linguagens surgiram implementando novas técnicas de desenvolvimento e assim melhorando o desempenho e os recursos que o programador pode usar dentro de seus software.
+
+Temos também vários tipos de classificações, que servem para entender como a linguagem funciona, na sua estrutura de desenvolvimento e como ela pode ser usada dentro de um projeto, se ela é imperativa, fortemente tipada ou se é de baixo nível ou alto nível, seguindo vários conceitos que definiram a linguagem que você trabalha.
+
+### Indicações de livros sobre o assunto
+
+**Conceitos de Linguagens de Programação** - Robert W. Sebesta
+
+**Cracking - The Coding Interview - 189 Programming Questions & Solutions 6th** - Gayle Laakmann Mcdowell
