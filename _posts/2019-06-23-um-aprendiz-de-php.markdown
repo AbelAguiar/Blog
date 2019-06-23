@@ -56,7 +56,7 @@ Estive nesse emprego a mais de 5 anos, trabalhando com tecnologias web, onde nes
 
 Nessa empresa, conheci Wordpress, Codeigniter, Laravel, MySql, Docker, Vagrant, Vuejs e muito mais coisas, compartilhei muitos momentos felizes, crescimento como pessoa e profissional foram grandes, entrei ao 20 anos e saí ao 25 anos de idade, agora estou numa nova jornada, de onde quero sair maior, para assim como muitas pessoas que ajudaram no conhecimento que tenho hoje, também vou ajudar outras pessoas, através deste blog ou outros meios de transmissão.
 
-Dicas para começar bem
+## Dicas para começar bem
 
 O primeiro conteúdo que indico a estudar para quem está começando é [PHP do Jeito Certo][phpdojeitocerto], lá você vai ter todas as informações necessárias para começa bem com PHP como o nome já fala, não poria indicar melhor, desenvolvido pela comunidade, reúne várias informações de boas prática, ferramentas e os melhores métodos desenvolvidos pela comunidades para se começa bem, além de ter em várias línguas.
 
