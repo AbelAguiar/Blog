@@ -22,8 +22,6 @@ Na minha história houve momentos que fizeram com eu chegasse onde estou hoje, e
 
 Começando pela origem de tudo, quando comecei a ter interesse por tecnologia, relembrando minha infância, tive algumas experiências, quando meus pais compraram um video cassette, pareço velho agora, tínhamos apenas uma tv de tubo de 14 polegadas na época, quase todos os fins de semana alugávamos fitas para assistir e devolver na segunda feira, época divertida, eu sempre tive curiosidade em saber como as coisas funcionavam, e ajustavam elas para funcionar como queria ou pelo menos descobria coisas que poucas pessoas usavam nos dispositivos da época.
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/06-um-aprendiz-de-php/videocassette.jpg" alt="Video Cassette">
-
 Quando criança ficava bravo por não poder assistir meus desenhos, estudava pela manhã, logo quando chegava, todos os desenhos já tinham acabado, salve quando não tinha quinta aula que aí dava para ver os dois últimos. Bom fazendo um resumo da história, descobrir que meu videocassete fazia gravações da tela e não só isso ele agendava para determinado horário, parece besteira nos dias de hoje, mas eu tinha meus 12 anos, e internet e celular era sonho para muita gente, descobrir uma função para conectar a antena da tv ao videocassete e o cabo dele na tv, assim ninguém em casa percebia, programava qual canal e o horário iria gravar, quando chegava no momento certo ele ligava, gravava todo o conteúdo e ainda rebobinava a fita, assim chegava em casa com todos os meus desenhos lindos para assistir.
 
 ## Ensino Médio
@@ -59,8 +57,6 @@ Estive nesse emprego a mais de 5 anos, trabalhando com tecnologias web, onde nes
 Nessa empresa, conheci Wordpress, Codeigniter, Laravel, MySql, Docker, Vagrant, Vuejs e muito mais coisas, compartilhei muitos momentos felizes, crescimento como pessoa e profissional foram grandes, entrei ao 20 anos e saí ao 25 anos de idade, agora estou numa nova jornada, de onde quero sair maior, para assim como muitas pessoas que ajudaram no conhecimento que tenho hoje, também vou ajudar outras pessoas, através deste blog ou outros meios de transmissão.
 
 Dicas para começar bem
-
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/06-um-aprendiz-de-php/dicas.jpg" alt="Dicas">
 
 O primeiro conteúdo que indico a estudar para quem está começando é [PHP do Jeito Certo][phpdojeitocerto], lá você vai ter todas as informações necessárias para começa bem com PHP como o nome já fala, não poria indicar melhor, desenvolvido pela comunidade, reúne várias informações de boas prática, ferramentas e os melhores métodos desenvolvidos pela comunidades para se começa bem, além de ter em várias línguas.
 
