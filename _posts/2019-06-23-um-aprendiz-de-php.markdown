@@ -38,8 +38,6 @@ No ano anterior tinha participado de um campeonato de criação de sites, sem sa
 
 Continuando no terceiro ano, comecei a usar o **NVU** como editor, passando depois para o Adobe Dreamweaver, ano muito divertido, aprendendo diversas coisas, compartilhando conhecimento com meus colegas e aprendendo muito com eles também.
 
-<img class="img-fluid" src="https://abelaguiar.github.io/blog/assets/img/posts/06-um-aprendiz-de-php/nvu.png" alt="Editor de Texto NVU">
-
 Daí vem minha paixão pela web, você tem o resultado conforme criar seu código, criar programas de forma rápida usando vários tipos de tecnologias, eu como aprendiz estava muito feliz, aprendi muito sobre PHP com um site chamado suporte da web, começava seus vídeos falando “E ai galera”, bem básico, ensina de forma prática. Infelizmente o site não existe mais e os vídeos não encontrei mais no youtube.
 
 ## Faculdade
